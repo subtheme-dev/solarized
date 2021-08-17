@@ -1,0 +1,684 @@
+{
+  "name": "{{theme.name}}",
+  "dark": {{theme.dark}},
+  "author": "Subtheme",
+  "editorScheme": "/schemes/{{theme.id}}.xml",
+  "ui": {
+    "*": {
+      "acceleratorSelectionForeground": "{{theme.colors.yellow}}",
+      "background": "{{theme.colors.base03}}",
+      "borderColor": "{{theme.colors.base02}}",
+      "disabledBackground": "{{theme.colors.base02}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "disabledText": "{{theme.colors.base00}}",
+      "focusColor": "{{theme.colors.base00}}",
+      "focusedBorderColor": "{{theme.colors.base2}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveBackground": "{{theme.colors.base02}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "infoForeground": "{{theme.colors.base00}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionBackgroundInactive": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base2}}",
+      "selectionInactiveBackground": "{{theme.colors.base00}}",
+      "selectionInactiveForeground": "{{theme.colors.base0}}",
+      "separatorColor": "{{theme.colors.base03}}"
+    },
+    "ActionButton": {
+      "hoverBackground": "{{theme.colors.base02}}",
+      "hoverBorderColor": "{{theme.colors.base02}}",
+      "pressedBackground": "{{theme.colors.base02}}",
+      "pressedBorderColor": "{{theme.colors.base02}}"
+    },
+    "Borders": {
+      "ContrastBorderColor": "{{theme.colors.base02}}",
+      "color": "{{theme.colors.base02}}"
+    },
+    "Button": {
+      "arc": 0,
+      "background": "{{theme.colors.base02}}",
+      "default": {
+        "endBackground": "{{theme.colors.base02}}",
+        "endBorderColor": "{{theme.colors.base02}}",
+        "foreground": "{{theme.colors.base2}}",
+        "focusColor": "{{theme.colors.base2}}",
+        "focusedBorderColor": "{{theme.colors.base02}}",
+        "shadowColor": "{{theme.colors.base02}}",
+        "startBackground": "{{theme.colors.base02}}",
+        "startBorderColor": "{{theme.colors.base02}}"
+      },
+      "disabledBorderColor": "{{theme.colors.base02}}",
+      "disabledText": "{{theme.colors.base0}}",
+      "endBackground": "{{theme.colors.base02}}",
+      "endBorderColor": "{{theme.colors.base02}}",
+      "focusedBorderColor": "{{theme.colors.base02}}",
+      "foreground": "{{theme.colors.base2}}",
+      "shadowColor": "{{theme.colors.base02}}",
+      "shadowWidth": 0,
+      "startBackground": "{{theme.colors.base02}}",
+      "startBorderColor": "{{theme.colors.base02}}"
+    },
+    "CheckBox": {
+      "background": "{{theme.colors.base03}}",
+      "disabledText": "{{theme.colors.base0}}",
+      "foreground": "{{theme.colors.base0}}",
+      "select": "{{theme.colors.base2}}"
+    },
+    "CheckBoxMenuItem": {
+      "acceleratorForeground": "{{theme.colors.base00}}",
+      "acceleratorSelectionForeground": "{{theme.colors.base00}}",
+      "background": "{{theme.colors.base03}}",
+      "disabledBackground": "{{theme.colors.base03}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base2}}"
+    },
+    "ColorChooser": {
+      "background": "{{theme.colors.base03}}",
+      "foreground": "{{theme.colors.base0}}",
+      "swatchesDefaultRecentColor": "{{theme.colors.base0}}"
+    },
+    "ComboBoxButton": {
+      "background": "{{theme.colors.base02}}"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "{{theme.colors.base01}}",
+        "disabledIconColor": "{{theme.colors.base01}}",
+        "iconColor": "{{theme.colors.base1}}",
+        "nonEditableBackground": "{{theme.colors.base01}}"
+      },
+      "background": "{{theme.colors.base02}}",
+      "disabledBackground": "{{theme.colors.base02}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "modifiedItemForeground": "{{theme.colors.base2}}",
+      "nonEditableBackground": "{{theme.colors.base02}}",
+      "selectionBackground": "{{theme.colors.base03}}",
+      "selectionForeground": "{{theme.colors.base2}}"
+    },
+    "ComboPopup": {
+      "border": "{{theme.colors.base03}}"
+    },
+    "CompletionPopup": {
+      "foreground": "{{theme.colors.base0}}",
+      "matchForeground": "{{theme.colors.yellow}}",
+      "selectionInactiveBackground": "{{theme.colors.base03}}",
+      "selectionBackground": "{{theme.colors.base03}}"
+    },
+    "Component": {
+      "arc": 4,
+      "borderColor": "{{theme.colors.base03}}",
+      "disabledBorderColor": "{{theme.colors.base03}}",
+      "focusColor": "{{theme.colors.base03}}",
+      "focusedBorderColor": "{{theme.colors.base03}}",
+      "hoverIconColor": "{{theme.colors.base3}}",
+      "infoForeground": "{{theme.colors.base0}}",
+      "iconColor": "{{theme.colors.base0}}"
+    },
+    "Counter": {
+      "background": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}"
+    },
+    "Debugger": {
+      "Variables": {
+        "collectingDataForeground": "{{theme.colors.base00}}",
+        "changedValueForeground": "{{theme.colors.yellow}}",
+        "errorMessageForeground": "{{theme.colors.red}}",
+        "evaluatingExpressionForeground": "{{theme.colors.base00}}",
+        "exceptionForeground": "{{theme.colors.blue}}",
+        "modifyingValueForeground": "{{theme.colors.yellow}}",
+        "valueForeground": "{{theme.colors.yellow}}"
+      }
+    },
+    "DebuggerTabs": {
+      "underlinedTabBackground": "{{theme.colors.base02}}"
+    },
+    "DebuggerPopup": {
+      "borderColor": "{{theme.colors.base00}}"
+    },
+    "DefaultTabs": {
+      "background": "{{theme.colors.base03}}",
+      "borderColor": "{{theme.colors.base03}}",
+      "hoverBackground": "{{theme.colors.base02}}",
+      "inactiveUnderlineColor": "{{theme.colors.yellow}}",
+      "underlineColor": "{{theme.colors.yellow}}",
+      "underlinedTabBackground": "{{theme.colors.base03}}",
+      "underlineHeight": 2
+    },
+    "DragAndDrop": {
+      "areaBackground": "{{theme.colors.base03}}",
+      "areaBorderColor": "{{theme.colors.base03}}",
+      "areaForeground": "{{theme.colors.base0}}"
+    },
+    "Editor": {
+      "background": "{{theme.colors.base02}}",
+      "foreground": "{{theme.colors.base0}}",
+      "shortcutForeground": "{{theme.colors.base00}}"
+    },
+    "EditorPane": {
+      "background": "{{theme.colors.base02}}",
+      "caretForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveBackground": "{{theme.colors.base03}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.yellow}}"
+    },
+    "EditorTabs": {
+      "borderColor": "{{theme.colors.base02}}",
+      "inactiveUnderlineColor": "{{theme.colors.base2}}",
+      "underlineColor": "{{theme.colors.base2}}",
+      "underlinedTabBackground": "{{theme.colors.base02}}",
+      "underlinedTabForeground": "{{theme.colors.base2}}"
+    },
+    "FileColor": {
+      "Yellow": "00000000"
+    },
+    "FormattedTextField": {
+      "background": "{{theme.colors.base02}}",
+      "caretForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveBackground": "{{theme.colors.base00}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.yellow}}",
+      "selectionBackground": "{{theme.colors.base00}}"
+    },
+    "Group": {
+      "disabledSeparatorColor": "{{theme.colors.base03}}",
+      "separatorColor": "{{theme.colors.base03}}"
+    },
+    "GutterTooltip": {
+      "infoForeground": "{{theme.colors.base0}}",
+      "lineSeparatorColor": "{{theme.colors.base03}}"
+    },
+    "HelpTooltip": {
+      "borderColor": "{{theme.colors.base03}}",
+      "infoForeground": "{{theme.colors.base00}}"
+    },
+    "InformationHint": {
+      "borderColor": "{{theme.colors.base03}}"
+    },
+    "InplaceRefactoringPopup": {
+      "borderColor": "{{theme.colors.base03}}"
+    },
+    "Label": {
+      "background": "{{theme.colors.base03}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "disabledText": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base00}}",
+      "infoForeground": "{{theme.colors.base00}}",
+      "selectedForeground": "{{theme.colors.base2}}"
+    },
+    "Link": {
+      "activeForeground": "{{theme.colors.blue}}",
+      "hoverForeground": "{{theme.colors.blue}}",
+      "pressedForeground": "{{theme.colors.blue}}",
+      "secondaryForeground": "{{theme.colors.base0}}",
+      "visitedForeground": "{{theme.colors.blue}}"
+    },
+    "List": {
+      "background": "{{theme.colors.base02}}",
+      "foreground": "{{theme.colors.base0}}",
+      "selectionBackground": "{{theme.colors.base02}}",
+      "selectionForeground": "{{theme.colors.base2}}",
+      "selectionInactiveBackground": "{{theme.colors.base02}}",
+      "selectionInactiveForeground": "{{theme.colors.base2}}"
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "{{theme.colors.base00}}",
+      "usedBackground": "{{theme.colors.base00}}"
+    },
+    "Menu": {
+      "acceleratorForeground": "{{theme.colors.base00}}",
+      "acceleratorSelectionForeground": "{{theme.colors.base0}}",
+      "background": "{{theme.colors.base03}}",
+      "borderColor": "{{theme.colors.base02}}",
+      "disabledBackground": "{{theme.colors.base00}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "separatorColor": "{{theme.colors.base03}}",
+      "selectionForeground": "{{theme.colors.base2}}"
+    },
+    "MenuBar": {
+      "borderColor": "{{theme.colors.base02}}",
+      "disabledBackground": "{{theme.colors.base03}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "highlight": "{{theme.colors.base03}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base2}}",
+      "shadow": "{{theme.colors.base02}}"
+    },
+    "MenuItem": {
+      "acceleratorForeground": "{{theme.colors.base00}}",
+      "background": "{{theme.colors.base03}}",
+      "disabledBackground": "{{theme.colors.base03}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base2}}"
+    },
+    "NavBar": {
+      "borderColor": "{{theme.colors.base02}}"
+    },
+    "Notification": {
+      "background": "{{theme.colors.base02}}",
+      "borderColor": "{{theme.colors.base02}}",
+      "errorBackground": "{{theme.colors.base02}}",
+      "errorBorderColor": "{{theme.colors.base02}}",
+      "foreground": "{{theme.colors.base0}}",
+      "MoreButton": {
+        "background": "{{theme.colors.base00}}",
+        "foreground": "{{theme.colors.base0}}",
+        "innerBorderColor": "{{theme.colors.base02}}"
+      },
+      "ToolWindow": {
+        "errorBackground": "{{theme.colors.base02}}",
+        "errorBorderColor": "{{theme.colors.base02}}",
+        "informativeBackground": "{{theme.colors.base02}}",
+        "informativeBorderColor": "{{theme.colors.base02}}",
+        "warningBackground": "{{theme.colors.base02}}",
+        "warningBorderColor": "{{theme.colors.base02}}"
+      }
+    },
+    "OptionPane": {
+      "background": "{{theme.colors.base03}}",
+      "foreground": "{{theme.colors.base0}}",
+      "messageForeground": "{{theme.colors.base0}}"
+    },
+    "Panel": {
+      "background": "{{theme.colors.base03}}",
+      "foreground": "{{theme.colors.base00}}"
+    },
+    "ParameterInfo": {
+      "background": "{{theme.colors.base02}}",
+      "borderColor": "{{theme.colors.base01}}",
+      "currentOverloadBackground": "{{theme.colors.base00}}",
+      "currentParameterForeground": "{{theme.colors.yellow}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "infoForeground": "{{theme.colors.base00}}",
+      "lineSeparatorColor": "{{theme.colors.base02}}"
+    },
+    "PasswordField": {
+      "background": "{{theme.colors.base00}}",
+      "capsLockIconColor": "{{theme.colors.yellow}}",
+      "caretForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.yellow}}"
+    },
+    "Plugins": {
+      "background": "{{theme.colors.base03}}",
+      "hoverBackground": "{{theme.colors.base02}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "eapTagBackground": "{{theme.colors.base02}}",
+      "lightSelectionBackground": "{{theme.colors.base02}}",
+      "tagForeground": "{{theme.colors.blue}}",
+      "tagBackground": "{{theme.colors.base02}}",
+      "Button": {
+        "installBackground": "{{theme.colors.base02}}",
+        "installBorderColor": "{{theme.colors.base01}}",
+        "installForeground": "{{theme.colors.base01}}",
+        "installFocusedBackground": "{{theme.colors.base02}}",
+        "installFillForeground": "{{theme.colors.base01}}",
+        "installFillBackground": "{{theme.colors.base02}}",
+        "updateBackground": "{{theme.colors.base02}}",
+        "updateBorderColor": "{{theme.colors.base01}}",
+        "updateForeground": "{{theme.colors.base01}}"
+      },
+      "SearchField": {
+        "background": "{{theme.colors.base03}}",
+        "borderColor": "{{theme.colors.base02}}"
+      },
+      "SectionHeader": {
+        "background": "{{theme.colors.base03}}",
+        "foreground": "{{theme.colors.base00}}"
+      },
+      "Tab": {
+        "hoverBackground": "{{theme.colors.base02}}",
+        "selectedForeground": "{{theme.colors.base0}}",
+        "selectedBackground": "{{theme.colors.base02}}"
+      }
+    },
+    "Popup": {
+      "Advertiser": {
+        "background": "{{theme.colors.base03}}",
+        "borderColor": "{{theme.colors.base03}}",
+        "foreground": "{{theme.colors.yellow}}"
+      },
+      "borderColor": "{{theme.colors.base02}}",
+      "inactiveBorderColor": "{{theme.colors.base03}}",
+      "innerBorderColor": "{{theme.colors.base03}}",
+      "Header": {
+        "activeBackground": "{{theme.colors.base03}}",
+        "inactiveBackground": "{{theme.colors.base02}}"
+      },
+      "paintBorder": true,
+      "separatorForeground": "{{theme.colors.base0}}",
+      "separatorColor": "{{theme.colors.base03}}",
+      "Toolbar": {
+        "background": "{{theme.colors.base02}}",
+        "borderColor": "{{theme.colors.base02}}"
+      }
+    },
+    "PopupMenu": {
+      "background": "{{theme.colors.base03}}",
+      "foreground": "{{theme.colors.base0}}",
+      "translucentBackground": "{{theme.colors.base03}}",
+      "selectionBackground": "{{theme.colors.base00}}"
+    },
+    "PopupMenuSeparator": {
+      "height": 10,
+      "stripeIndent": 5
+    },
+    "ProgressBar": {
+      "background": "{{theme.colors.base03}}",
+      "foreground": "{{theme.colors.yellow}}",
+      "indeterminateEndColor": "{{theme.colors.yellow}}",
+      "indeterminateStartColor": "{{theme.colors.yellow}}",
+      "progressColor": "{{theme.colors.yellow}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "trackColor": "{{theme.colors.base00}}"
+    },
+    "RadioButton": {
+      "background": "{{theme.colors.base03}}",
+      "disabledText": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}"
+    },
+    "RadioButtonMenuItem": {
+      "acceleratorForeground": "{{theme.colors.base00}}",
+      "acceleratorSelectionForeground": "{{theme.colors.base00}}",
+      "background": "{{theme.colors.base03}}",
+      "disabledBackground": "{{theme.colors.base03}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.yellow}}"
+    },
+    "SearchEverywhere": {
+      "Advertiser": {
+        "background": "{{theme.colors.base02}}",
+        "foreground": "{{theme.colors.base00}}"
+      },
+      "Header": {
+        "background": "{{theme.colors.base03}}"
+      },
+      "List": {
+        "separatorColor": "{{theme.colors.base03}}",
+        "separatorForeground": "{{theme.colors.base00}}"
+      },
+      "SearchField": {
+        "background": "{{theme.colors.base03}}",
+        "borderColor": "{{theme.colors.base02}}",
+        "infoForeground": "{{theme.colors.base00}}"
+      },
+      "Tab": {
+        "selectedForeground": "{{theme.colors.yellow}}",
+        "selectedBackground": "{{theme.colors.base00}}"
+      }
+    },
+    "SearchMatch": {
+      "endBackground": "{{theme.colors.yellow}}",
+      "startBackground": "{{theme.colors.yellow}}"
+    },
+    "Separator": {
+      "separatorColor": "{{theme.colors.base02}}"
+    },
+    "SidePanel": {
+      "background": "{{theme.colors.base02}}"
+    },
+    "Slider": {
+      "background": "{{theme.colors.base03}}",
+      "buttonBorderColor": "{{theme.colors.yellow}}",
+      "buttonColor": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "tickColor": "{{theme.colors.base00}}",
+      "trackColor": "{{theme.colors.base00}}"
+    },
+    "SpeedSearch": {
+      "background": "{{theme.colors.base00}}",
+      "borderColor": "{{theme.colors.base03}}",
+      "errorForeground": "{{theme.colors.base0}}",
+      "foreground": "{{theme.colors.base0}}"
+    },
+    "Spinner": {
+      "background": "{{theme.colors.base03}}"
+    },
+    "SplitPane": {
+      "background": "{{theme.colors.base03}}",
+      "highlight": "{{theme.colors.base02}}"
+    },
+    "SplitPaneDivider": {
+      "draggingColor": "{{theme.colors.base00}}"
+    },
+    "StatusBar": {
+      "borderColor": "{{theme.colors.base02}}",
+      "hoverBackground": "{{theme.colors.base02}}"
+    },
+    "TabbedPane": {
+      "background": "{{theme.colors.base03}}",
+      "contentAreaColor": "{{theme.colors.base00}}",
+      "disabledForeground": "{{theme.colors.base00}}",
+      "disabledUnderlineColor": "{{theme.colors.base00}}",
+      "focus": "{{theme.colors.base00}}",
+      "focusColor": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "hoverColor": "{{theme.colors.base02}}",
+      "tabSelectionHeight": 2,
+      "underlineColor": "{{theme.colors.yellow}}"
+    },
+    "Table": {
+      "background": "{{theme.colors.base02}}",
+      "dropLineColor": "{{theme.colors.yellow}}",
+      "dropLineShortColor": "{{theme.colors.yellow}}",
+      "focusCellBackground": "{{theme.colors.base02}}",
+      "focusCellForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "gridColor": "{{theme.colors.base02}}",
+      "lightSelectionForeground": "{{theme.colors.yellow}}",
+      "lightSelectionInactiveForeground": "{{theme.colors.base0}}",
+      "lightSelectionInactiveBackground": "{{theme.colors.base02}}",
+      "selectionBackground": "{{theme.colors.base02}}",
+      "selectionForeground": "{{theme.colors.yellow}}",
+      "selectionInactiveBackground": "{{theme.colors.base02}}",
+      "selectionInactiveForeground": "{{theme.colors.base0}}",
+      "sortIconColor": "{{theme.colors.base0}}",
+      "stripeColor": "{{theme.colors.base02}}"
+    },
+    "TableHeader": {
+      "background": "{{theme.colors.base03}}",
+      "bottomSeparatorColor": "{{theme.colors.base02}}",
+      "cellBorder": "4,0,4,0",
+      "foreground": "{{theme.colors.base0}}",
+      "focusCellBackground": "{{theme.colors.base00}}",
+      "separatorColor": "{{theme.colors.base02}}"
+    },
+    "textText": "{{theme.colors.base00}}",
+    "TextArea": {
+      "background": "{{theme.colors.base01}}",
+      "caretForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base03}}"
+    },
+    "TextField": {
+      "background": "{{theme.colors.base03}}",
+      "caretForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base03}}"
+    },
+    "TextPane": {
+      "background": "{{theme.colors.base01}}",
+      "caretForeground": "{{theme.colors.yellow}}",
+      "foreground": "{{theme.colors.base0}}",
+      "inactiveForeground": "{{theme.colors.base00}}",
+      "selectionBackground": "{{theme.colors.base00}}",
+      "selectionForeground": "{{theme.colors.base03}}"
+    },
+    "TitlePane": {
+      "background": "{{theme.colors.base02}}",
+      "Button.hoverBackground": "{{theme.colors.base00}}",
+      "inactiveBackground": "{{theme.colors.base03}}",
+      "infoForeground": "{{theme.colors.base00}}",
+      "inactiveInfoForeground": "{{theme.colors.base00}}"
+    },
+    "TitledBorder": {
+      "titleColor": "{{theme.colors.base03}}"
+    },
+    "ToggleButton": {
+      "borderColor": "{{theme.colors.base00}}",
+      "buttonColor": "{{theme.colors.base0}}",
+      "disabledText": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base00}}",
+      "offForeground": "{{theme.colors.base03}}",
+      "offBackground": "{{theme.colors.base03}}",
+      "onBackground": "{{theme.colors.yellow}}",
+      "onForeground": "{{theme.colors.yellow}}"
+    },
+    "ToolBar": {
+      "background": "{{theme.colors.base02}}",
+      "borderHandleColor": "{{theme.colors.base00}}",
+      "floatingForeground": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}"
+    },
+    "ToolTip": {
+      "Actions": {
+        "background": "{{theme.colors.base03}}",
+        "infoForeground": "{{theme.colors.base00}}"
+      },
+      "background": "{{theme.colors.base03}}",
+      "borderColor": "{{theme.colors.base00}}",
+      "foreground": "{{theme.colors.base0}}",
+      "infoForeground": "{{theme.colors.base00}}",
+      "shortcutForeground": "{{theme.colors.base00}}"
+    },
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "{{theme.colors.base02}}",
+        "selectedForeground": "{{theme.colors.base0}}",
+        "selectedBackground": "{{theme.colors.base02}}"
+      },
+      "Header": {
+        "background": "{{theme.colors.base03}}",
+        "borderColor": "{{theme.colors.base02}}",
+        "inactiveBackground": "{{theme.colors.base03}}"
+      },
+      "HeaderCloseButton": {
+        "background": "{{theme.colors.base03}}"
+      },
+      "HeaderTab": {
+        "hoverBackground": "{{theme.colors.base02}}",
+        "hoverInactiveBackground": "{{theme.colors.base02}}",
+        "inactiveUnderlineColor": "{{theme.colors.base2}}",
+        "selectedInactiveBackground": "{{theme.colors.base03}}",
+        "underlineColor": "{{theme.colors.base2}}",
+        "underlinedTabBackground": "{{theme.colors.base02}}",
+        "underlinedTabInactiveBackground": "{{theme.colors.base02}}"
+      }
+    },
+    "Tree": {
+      "background": "{{theme.colors.base02}}",
+      "foreground": "{{theme.colors.base0}}",
+      "hash": "{{theme.colors.base03}}",
+      "modifiedItemForeground": "{{theme.colors.yellow}}",
+      "rowHeight": 22,
+      "selectionBackground": "{{theme.colors.base03}}",
+      "selectionForeground": "{{theme.colors.base2}}",
+      "selectionInactiveBackground": "{{theme.colors.base03}}"
+    },
+    "UiDesigner": {
+      "Panel": {
+        "background": "{{theme.colors.base03}}"
+      },
+      "Preview": {
+        "background": "{{theme.colors.base03}}"
+      }
+    },
+    "ValidationTooltip": {
+      "errorBackground": "{{theme.colors.base02}}",
+      "errorBorderColor": "{{theme.colors.base02}}",
+      "warningBackground": "{{theme.colors.base02}}",
+      "warningBorderColor": "{{theme.colors.base02}}"
+    },
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "{{theme.colors.base03}}"
+        }
+      },
+      "GitLog": {
+        "localBranchIconColor": "{{theme.colors.yellow}}",
+        "otherIconColor": "{{theme.colors.base00}}",
+        "remoteBranchIconColor": "{{theme.colors.base0}}",
+        "tagIconColor": "{{theme.colors.base00}}"
+      },
+      "HgLog": {
+        "branchIconColor": "{{theme.colors.yellow}}",
+        "bookmarkIconColor": "{{theme.colors.yellow}}",
+        "closedBranchIconColor": "{{theme.colors.base00}}",
+        "localTagIconColor": "{{theme.colors.base00}}",
+        "mqTagIconColor": "{{theme.colors.base00}}",
+        "tagIconColor": "{{theme.colors.base00}}",
+        "tipIconColor": "{{theme.colors.base00}}"
+      },
+      "Log": {
+        "Commit": {
+          "unmatchedForeground": "{{theme.colors.base00}}",
+          "currentBranchBackground": "{{theme.colors.base02}}"
+        }
+      },
+      "RefLabel": {
+        "foreground": "{{theme.colors.yellow}}",
+        "backgroundBase": "{{theme.colors.base00}}"
+      }
+    },
+    "Viewport": {
+      "background": "{{theme.colors.base02}}",
+      "foreground": "{{theme.colors.base0}}"
+    },
+    "WelcomeScreen": {
+      "background": "{{theme.colors.base03}}",
+      "borderColor": "{{theme.colors.base02}}",
+      "captionBackground": "{{theme.colors.base02}}",
+      "captionForeground": "{{theme.colors.base0}}",
+      "footerBackground": "{{theme.colors.base02}}",
+      "footerForeground": "{{theme.colors.base0}}",
+      "headerBackground": "{{theme.colors.base03}}",
+      "headerForeground": "{{theme.colors.base0}}",
+      "Projects": {
+        "background": "{{theme.colors.base02}}",
+        "selectionBackground": "{{theme.colors.base03}}",
+        "selectionInactiveBackground": "{{theme.colors.base03}}"
+      },
+      "separatorColor": "{{theme.colors.base02}}"
+    },
+    "window": "{{theme.colors.base03}}",
+    "Window": {
+      "border": "0,0,0,0,{{theme.colors.base02}}"
+    },
+    "windowBorder": "{{theme.colors.base02}}",
+    "windowText": "{{theme.colors.base00}}"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "{{theme.colors.base01}}",
+      "Checkbox.Background.Disabled.Dark": "{{theme.colors.base02}}",
+      "Checkbox.Background.Selected.Dark": "{{theme.colors.base01}}",
+      "Checkbox.Border.Default.Dark": "{{theme.colors.base01}}",
+      "Checkbox.Border.Disabled.Dark": "{{theme.colors.base02}}",
+      "Checkbox.Border.Selected.Dark": "{{theme.colors.base01}}",
+      "Checkbox.Focus.Thin.Default.Dark": "{{theme.colors.base02}}",
+      "Checkbox.Focus.Thin.Selected.Dark": "{{theme.colors.base02}}",
+      "Checkbox.Focus.Wide.Dark": "{{theme.colors.base02}}",
+      "Checkbox.Foreground.Disabled.Dark": "{{theme.colors.base01}}",
+      "Checkbox.Foreground.Selected.Dark": "{{theme.colors.base0}}"
+    }
+  }
+}
