@@ -1,4 +1,0 @@
-{% with %}
-{% set theme=dark %}
-{% include "templates/theme.json" %}
-{% endwith %}
